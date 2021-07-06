@@ -12,7 +12,7 @@ inputs:
     description: "Your Cloudflare API key."
     required: true
   purgeURLs:
-    description: "The specific URLs to purge (a STRING in JSON format '["https://example.com/style.css", "https://example.com/favicon.ico"]')"
+    description: "The specific URLs to purge (a STRING in JSON format )"
     required: false
 runs:
   using: "docker"
